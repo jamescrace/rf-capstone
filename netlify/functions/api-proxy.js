@@ -1,7 +1,7 @@
 export const handler = async (event, context) => {
 
-    const API_KEY = process.env.get("VITE_API_KEY");
-    const API_BASE_URL = process.env.get("VITE_API_BASE_URL");
+    const API_KEY = process.env("VITE_API_KEY");
+    const API_BASE_URL = process.env("VITE_API_BASE_URL");
 
     try {
         const path = event.queryStringParameters.path;
