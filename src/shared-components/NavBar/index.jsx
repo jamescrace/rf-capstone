@@ -20,7 +20,7 @@ const NavBar = () => {
                     <Link to="/plants">
                         <div className="text-2xl text-white items-center flex flex-col font-playfair">
                             <img src="https://static-task-assets.react-formula.com/capstone_logo_light.png"
-                                 alt="rica's plants logo" className="w-10"/>
+                                 alt="plants logo" className="w-10"/>
                             J&apos;s Plants
                         </div>
                     </Link>

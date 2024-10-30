@@ -13,7 +13,7 @@ const FormContainer = (props) => {
                 <div className="flex flex-col items-center mx-2 my-6">
                     <img src="https://static-task-assets.react-formula.com/capstone_logo_dark.png"
                          className="w-16 mb-2"/>
-                    <div className="font-playfair text-3xl text-green-800">Rica's Plants</div>
+                    <div className="font-playfair text-3xl text-green-800">J's Plants</div>
                 </div>
                 {children}
             </div>
