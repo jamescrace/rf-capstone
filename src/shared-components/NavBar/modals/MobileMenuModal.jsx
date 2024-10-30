@@ -1,5 +1,5 @@
 import {useContext} from 'react';
-import SessionContext from 'context/SessionContext';
+import SessionContext from 'context/sessionContext.js'
 import {motion} from 'framer-motion';
 
 const MobileMenuModal = (props) => {
@@ -15,7 +15,7 @@ const MobileMenuModal = (props) => {
             <i className="mr-2 text-2xl fa-solid fa-user"/>
             {username}
         </div>
-         <button className="px-8 py-4" onClick={signOut}>
+        <button className="px-8 py-4" onClick={signOut}>
             <i className="mr-2 text-2xl fa-solid fa-arrow-right-from-bracket"/>
             sign out
         </button>
