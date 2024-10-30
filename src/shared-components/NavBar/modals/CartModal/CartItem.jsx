@@ -2,7 +2,6 @@ import * as cartService from 'services/cart'
 
 const CartItem = (props) => {
     const {item, fetchCart} = props;
-    console.log(item);
     return <div className="flex mx-6 my-8">
         <img className="w-28 rounded-md" src={item.image_src}/>
         <div className="flex justify-between mx-4 flex-1">

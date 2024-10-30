@@ -8,8 +8,6 @@ const RedirectToSignInIfSignedOut = (props) => {
 
     useEffect(() => {
         if (username === null) {
-            console.log({username})
-            console.log("redirecting to / ...")
             navigate("/")
         }
     }, [username]);

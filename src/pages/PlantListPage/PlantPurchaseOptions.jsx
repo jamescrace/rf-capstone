@@ -56,13 +56,12 @@ const PlantPurchaseOptions = (props) => {
                 className="flex items-center justify-center mx-1 flex-1 rounded-full bg-emerald-700 text-white text-xl hover:bg-emerald-800"
                 onClick={async () => {
                     setIsLoading(true);
-                    const response = await cartService.addPlantToCart({
+                    await cartService.addPlantToCart({
                         plantId: plant.id,
                         quantity,
                         potColor: plant.images[imageIdx].pot_color
                     });
                     setIsLoading(false);
-                    console.log(response.status)
                 }}
             >
                 {

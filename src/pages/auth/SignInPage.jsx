@@ -43,7 +43,6 @@ const SignInPage = () => {
                             setError('')
                         } else {
                             setError(data.error);
-                            console.log(response)
                         }
                     }}
                 />
